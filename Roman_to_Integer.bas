@@ -20,8 +20,9 @@ For j = 1 To length
     If numeral = "M" Then k = 1000
     
     If last < k Then
-    counter = counter - last * 2
+        counter = counter - last * 2
     End If
+    
     counter = counter + k
     
     last = k
