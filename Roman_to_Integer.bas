@@ -1,6 +1,14 @@
 Attribute VB_Name = "Module1"
 Sub roman_to_int()
 
+Dim roman As String
+Dim lenght As Long
+Dim counter As Integer
+Dim last As Integer
+Dim j As Long
+Dim k As Integer
+
+
 roman = InputBox("Enter number in roman numeral format")
 length = Len(roman)
 
